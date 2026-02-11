@@ -12,8 +12,8 @@
   --color-primary: #393872;
   --color-primary-dark: #2a2954;
   --color-primary-light: #ecedf5;
-  --color-accent: #f0a622;
-  --color-accent-dark: #d4911a;
+  --color-accent: #00d1ff;
+  --color-accent-dark: #0099bb;
 
   /* Neutrals */
   --color-bg: #f4f6f9;
@@ -81,9 +81,9 @@ a {
 /* Decorative Shapes */
 .shape {
   position: absolute;
-  filter: blur(80px);
+  filter: blur(100px);
   z-index: 0;
-  opacity: 0.4;
+  opacity: 0.15;
   pointer-events: none;
 }
 
